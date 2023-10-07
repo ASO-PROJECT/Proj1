@@ -7,10 +7,7 @@ package ma.beans;
 
 import java.util.Date;
 
-/**
- *
- * @author Lachgar
- */
+
 public class Client {
     private int id;
     private String nom;

@@ -37,9 +37,9 @@ public class ClientForm extends javax.swing.JInternalFrame {
             st = con.getConnection().createStatement();
 //            st = Connexion.getConnection().createStatement();
             rs = st.executeQuery("Select * from clients");
-            
-            while(rs.next()){
-            model.addRow(new Object[]{rs});
+
+            while (rs.next()) {
+                model.addRow(new Object[]{rs});
             }
 
         } catch (Exception e) {
